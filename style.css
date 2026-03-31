@@ -1,5 +1,6 @@
 * {
     margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .head{
@@ -20,9 +21,6 @@ header{
 }
 
 
-
-
-
 .menu {
     display: flex;
     gap: 20px;
@@ -30,5 +28,28 @@ header{
     margin-right: 90px;
     font-size: 25px;
     align-items: center;
+}
+
+
+section{
+    background-color: #F2E2D2;
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+    
+}
+
+section button{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
 
