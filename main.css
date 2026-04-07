@@ -8,6 +8,7 @@
     align-items: center;
     margin-left: 50px;
     border-color: #E6E8E6;
+    color: #191919;
 }
 
 header{
@@ -28,11 +29,13 @@ header{
     margin-right: 90px;
     font-size: 25px;
     align-items: center;
+    color: #191919;
 }
 
 .menu a{
     text-decoration: none;
-    color:black
+    color: #191919;
+    
 
 }
 
@@ -44,6 +47,7 @@ header{
     padding: 20px;
     margin: 25px;
     text-align: center;
+    color: #191919;
     
 }
 
@@ -58,6 +62,8 @@ header{
     cursor: pointer;
 }
 
+
+
 .Discounted {
     margin: 25px 260px;
     background-color: #E6E8E6;
@@ -67,11 +73,12 @@ header{
     padding: 20px;
     margin: 25px;
     text-align: left;
+    color: #191919;
 
 }
 
 hr{
-    border: 1px, black, solid;
+    border: 1px, #191919, solid;
     width: 100%;
 }
 
@@ -103,8 +110,10 @@ hr{
     padding: 20px;
     margin: 25px;
     text-align: left;
+    color: #191919;
 }
 
 .rights{
     text-align: center;
+    color: #191919;
 }
