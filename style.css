@@ -39,21 +39,10 @@ header{
 
 }
 
-.hero-section{
-    background-color: #E6E8E6;
-    margin-left: 260px;
-    margin-right: 260px;
-    margin-top: 20px;
-    padding: 20px;
-    margin: 25px;
-    text-align: center;
-    color: #191919;
-    
-}
 
 .hero-section button{
     background-color: red;
-    color: white;
+    color: #E6E8E6;
     width: 200px;
     height: 40px;
     margin-top: 25px;
@@ -128,7 +117,7 @@ hr{
 
 .search-input, .filter-select {
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #E6E8E6;
     border-radius: 4px;
 }
 
@@ -142,4 +131,18 @@ hr{
     margin: 25px;
     text-align: left;
     color: #191919;
+}
+
+.product-card {
+    transition: transform 0.3s ; /* Плавность анимации (0.3 секунды) */
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Увеличиваем карточку на 5% при наведении */
+}
+
+/* Если хочешь, чтобы увеличивалась ТОЛЬКО картинка внутри, а текст оставался на месте: */
+.product-card img {
+    transition: transform 0.3s ease;
 }

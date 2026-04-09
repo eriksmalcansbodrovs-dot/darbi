@@ -60,6 +60,12 @@ header{
     font-size: 20px;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s ; /* Плавность анимации (0.3 секунды) */
+    cursor: pointer;
+}
+
+.hero-section button:hover{
+    transform: scale(1.05);
 }
 
 
@@ -116,4 +122,18 @@ hr{
 .rights{
     text-align: center;
     color: #191919;
+}
+
+.product-card {
+    transition: transform 0.3s ease; /* Плавность анимации (0.3 секунды) */
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Увеличиваем карточку на 5% при наведении */
+}
+
+/* Если хочешь, чтобы увеличивалась ТОЛЬКО картинка внутри, а текст оставался на месте: */
+.product-card img {
+    transition: transform 0.3s ease;
 }
