@@ -80,8 +80,8 @@ hr{
     text-align: center;
 }
 .product-card img {
-    width: 400px;
-    height: 400px;
+    width: 550px;
+    height: 550px;
     object-fit: cover;
 }
 
