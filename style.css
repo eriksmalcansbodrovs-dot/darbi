@@ -141,7 +141,21 @@ hr{
     transform: scale(1.05); 
 }
 
-
+.footer-content {
+    margin: 25px 260px;
+    background-color: #E6E8E6;
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 25px;
+    text-align: left;
+    color: #191919;                    
+    display: flex;             
+    justify-content: space-between; 
+    align-items: left;                
+    color: #191919;
+}
 .product-card img {
     transition: transform 0.3s ease;
 }
