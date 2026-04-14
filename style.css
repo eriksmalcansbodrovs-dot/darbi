@@ -54,7 +54,6 @@ header{
 
 
 .Discounted {
-    margin: 25px 260px;
     background-color: #E6E8E6;
     margin-left: 260px;
     margin-right: 260px;
@@ -80,8 +79,8 @@ hr{
     text-align: center;
 }
 .product-card img {
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
 }
 
